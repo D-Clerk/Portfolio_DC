@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>React Application With JSX!</title>
+
+     <!-- bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin>
+    <!-- Don't use this in production -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <a href="hello.html">Go to Home Page</a>
+    <div id="root"></div>
+
+    <!-- Load React -->
+    <script src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.development.js" crossorigin></script>
+    <script src="https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Load React component with JSX -->
+    <script defer type="text/babel">
+      const userTitle = { jobTitle: 'Full Stack Developer', firstName: 'David', company: 'FFBS', status: 'Active' };
+      const myStyle = { textAlign: 'center', fontFamily: 'Arial', color: 'red' };
+      const name = 'David Clerk';
+
+      // Function to format title
+      function formatTitle(userTitle) {
+        return `${userTitle.jobTitle}  at  ${userTitle.company}`;
+      }
+
+      // Function to get status
+      function getStatus(userTitle) {
+        // Fix: use comparison operator '===' for equality check
+        if (userTitle.status === 'Active') {
+          return `${userTitle.firstName} is Active`;
+        }
+        return `${userTitle.firstName} is Inactive`;
+      }
+
+      const element = (
+        <div>
+          <h1>
+            This is the Expressions With Style Page!<br /><br />
+            Here We Go, {name} <br />
+          </h1>
+          <p style={myStyle}>
+            {formatTitle(userTitle)},   {getStatus(userTitle)}
+          </p>
+        </div>
+      );
+      const cssElement = 
+        <div className="container">
+          <div className="card">
+              <div className="card-header">
+                Featured
+              </div>
+              <div className="card-body">
+                <h5 className="card-title">Special title treatment</h5>
+                <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="hello.html" className="btn btn-primary">Go somewhere</a>
+              </div>
+          </div>
+        </div>;
+
+   // Combine both elements into one root render
+   const App = () => (
+        <div>
+          {element} <br /> <br />
+          {cssElement}
+        </div>
+      );
+      // React 18 uses createRoot instead of render
+      const root = ReactDOM.createRoot(document.getElementById('root'));
+      root.render(<App />);
+    </script>
+  </body>
+</html>

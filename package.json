@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/D-Clerk/davidclerk/issues"
   },
-  "homepage": "https://github.com/D-Clerk/davidclerk#readme"
+  "homepage": "https://github.com/D-Clerk/davidclerk#readme",
+  "dependencies": {
+    "16": "^0.0.2",
+    "http-server": "^14.1.1"
+  }
 }
