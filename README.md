@@ -4,7 +4,7 @@
 
 ## David Clerk 
 ## Digital Profile
-[![David Clerk's Photo](./DigitalPortfolio/images/dcPhoto.jpg)](./DigitalPortfolio/images/dcPhoto.jpg)
+[![David Clerk's Photo](./DigitalPortfolio/images/dcPhoto.jpg)](./.git/dcPhoto.jpg)
 
 [View My Digital Portfolio](http://127.0.0.1:3000/DigitalPortfolio/dcDigital.html) Or [Watch The Introduction Video](https://youtu.be/utkD-4Auci0) 
 
