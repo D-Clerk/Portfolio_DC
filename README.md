@@ -113,7 +113,7 @@ demonstrating an ability to turn complex datasets into meaningful, decision-read
 
 <div font-size: 16px; font-family: monospace; align="center">
 
-|              Web Scrapping W/Azure Resources/Administration         | 
+|              Web Scrapping w/Azure Resources/Administration         | 
 |--------------------------------------------------------|
 |                <sub> [Python/Web Scrapping ( ADF, ETL, SSIS, PowerBi)](TemplateLibrary/Documents/DC_Python_bs.pdf)</sub>|
 
