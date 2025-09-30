@@ -200,24 +200,24 @@ many years getting expertise in various industries/business units now it is time
 by obtaining certifications that are commensurate with my skills.  It truly is a process.
 
 <b>Degrees:</b></br>
-MBA, General Studies – Keller Graduate School of Management (2012)</br>
-BS, Technical Management – DeVry University (2009)</br>
+    <b>-</b> MBA, General Studies – Keller Graduate School of Management (2012)
+    <b>-</b> BS, Technical Management – DeVry University (2009)
 
 <b>Courses/Training Certificates:</b></br> 
-MIT Emeritus – Certificate in Full Stack Development (MERN Stack) 2025</br>
-Data Science Immersive Course, Divergence Academy – 2022</br>
-Statistical Analysis System (SAS) Base Programming Course, Syracuse University – 2019</br>
-Lean Six Sigma, Green Belt, Black Belt Master Course – Information Technology, Villanova University – 2016</br>
+    <b>-</b> MIT Emeritus – Certificate in Full Stack Development (MERN Stack) 2025
+    <b>-</b> Data Science Immersive Course, Divergence Academy – 2022
+    <b>-</b> Statistical Analysis System (SAS) Base Programming Course, Syracuse University – 2019
+    <b>-</b> Lean Six Sigma, Green Belt, Black Belt Master Course – Information Technology, Villanova University – 2016
 
 <b>Certifications:</b></br>
-Azure Fundamentals (AZ-900), Microsoft Certified, Dec – 2021 Certificate No. 1056-7963</br>
-Azure AI Fundamental (AI-900), Microsoft Certified, Jan – 2022 Certificate No. 1098-8730</br>
-Power Platform Fundamentals (PL-900), Microsoft Certified, Jan – 2022 Certificate No. 1102-6906</br>
+    <b>-</b> Azure Fundamentals (AZ-900), Microsoft Certified, Dec – 2021 Certificate No. 1056-7963
+    <b>-</b> Azure AI Fundamental (AI-900), Microsoft Certified, Jan – 2022 Certificate No. 1098-8730
+    <b>-</b> Power Platform Fundamentals (PL-900), Microsoft Certified, Jan – 2022 Certificate No. 1102-6906
 
 <b>Currently Pursuing:</b></br>	
-    *CISSP – Certified Information Systems Security Professional*<br>
-    *PL-200 – Microsoft Power Platform Functional Consultant*<br>
-    *PL-300 – Microsoft Power BI Data Analyst*<br>
+    <b>-</b> CISSP  – Certified Information Systems Security Professional
+    <b>-</b> PL-200 – Microsoft Power Platform Functional Consultant
+    <b>-</b> PL-300 – Microsoft Power BI Data Analyst
 
 
 </pre>
