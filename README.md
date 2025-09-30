@@ -164,9 +164,10 @@ best practices in version control and deployment.
      As a Capstone Project, I developed and deployed a fully integrated MERN application, 
 demonstrating the ability to connect front-end interfaces with secure back-end APIs and cloud-based
 services. 
-  
-[LogIn to Acme Email: portfolio@browsing.com  Password: Portfolio](https://next-js-dashboard-vb6u.vercel.app/)
-</pre>
+ </pre> 
+[***LogIn to Acme App***<br>
+Email: portfolio@browsing.com  Password: Portfolio](https://next-js-dashboard-vb6u.vercel.app/)
+
 <div font-size: 16px; font-family: monospace; align="center">
 
 |               Applications                 |                 Flows                                  |       Integrations                              | 
