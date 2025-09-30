@@ -214,18 +214,19 @@ by obtaining certifications that are commensurate with my skills.  Learning trul
     <b>- Data Science Immersive Course</b>, Divergence Academy – 2022
     <b>- Statistical Analysis System (SAS) Base Programming</b>, Syracuse University – 2019
     <b>- Lean Six Sigma, Green Belt, Black Belt Master Course – Information Technology</b>, Villanova University – 2016
-
+    <b>- Federal Acquisition Regulations 50 CEUs</b>, Defense Acquisition University – 2015
+    <b>- Hazardous Waste Operations/Technician Course (HAZWOPER)</b>, Bucks County Community College - 2010
+    
 <b>Certifications:</b></br>
     <b>- Azure Fundamentals (AZ-900)</b>, Microsoft Certified, Dec – 2021 Certificate No. 1056-7963
     <b>- Azure AI Fundamental (AI-900)</b>, Microsoft Certified, Jan – 2022 Certificate No. 1098-8730
     <b>- Power Platform Fundamentals (PL-900)</b>, Microsoft Certified, Jan – 2022 Certificate No. 1102-6906
+    <b>- Crane Inspector Certification</b>, Crane Institute of America – 2014
 
 <b>Currently Pursuing:</b></br>	<e>
     <b>- CISSP</b>  – Certified Information Systems Security Professional
     <b>- PL-200</b> – Microsoft Power Platform Functional Consultant
     <b>- PL-300</b> – Microsoft Power BI Data Analyst*
-
-
 </pre>
 ---
 
