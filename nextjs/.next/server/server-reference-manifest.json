@@ -1,0 +1,19 @@
+{
+  "node": {
+    "00c5500887790e661abd84d06b5f1239fd17c8fe72": {
+      "workers": {
+        "app/ui/dashboard/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CMIT%5C%5CAssignment25%5C%5Cnextjs-dashboard%5C%5Csrc%5C%5Capp%5C%5Clib%5C%5Csignout.js%22%2C%5B%7B%22id%22%3A%2200c5500887790e661abd84d06b5f1239fd17c8fe72%22%2C%22exportedName%22%3A%22logoutAction%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CMIT%5C%5CAssignment25%5C%5Cnextjs-dashboard%5C%5Csrc%5C%5Capp%5C%5Clib%5C%5Csignout.js%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/ui/dashboard/page": "action-browser"
+      },
+      "filename": "../C:\\MIT\\Assignment25\\nextjs-dashboard\\src\\app\\lib\\signout.js",
+      "exportedName": "logoutAction"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "YyGrDNuCVg/6j5/lEWyCY+qE0FA+guXUD4fwDZzXR54="
+}
