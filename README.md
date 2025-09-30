@@ -192,7 +192,7 @@ specific skillset and explore the pros and cons of multiple technologies.
 </div>
 
 <div font-size: 16px; font-family: monospace;>
-<b>Try the Acme App!</b> <a href="https://next-js-dashboard-vb6u.vercel.app/" style="display:none;">Click Here</a><br>
+<b>Try My Acme App!</b> <a href="https://next-js-dashboard-vb6u.vercel.app/" style="display:none;">Click Here</a><br>
 <sub><b>Email:</b> portfolio@browsing.com  <b>Password:</b> Portfolio</sub>
 </div>
 
