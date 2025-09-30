@@ -205,25 +205,25 @@ hardwork the results are so rewarding that my passion for learning enables me to
 many years getting expertise in various industries/business units now it is time for me to validate my professionalism 
 by obtaining certifications that are commensurate with my skills.  Learning truly is a process.
 
-<b>Degrees:</b></br><sub>
-    <b>-</b> MBA, General Studies – Keller Graduate School of Management (2012)
-    <b>-</b> BS, Technical Management – DeVry University (2009)</sub>
+<b>Formal Eductation:</b></br>
+    <b>- MBA,</b> General Studies – Keller Graduate School of Management (2012)
+    <b>- BS,</b> Technical Management – DeVry University (2009)
 
-<b>Courses/Training Certificates:</b></br><sub> 
-    <b>-</b> MIT Emeritus – Certificate in Full Stack Development (MERN Stack) 2025
-    <b>-</b> Data Science Immersive Course, Divergence Academy – 2022
-    <b>-</b> Statistical Analysis System (SAS) Base Programming Course, Syracuse University – 2019
-    <b>-</b> Lean Six Sigma, Green Belt, Black Belt Master Course – Information Technology, Villanova University – 2016</sub>
+<b>Courses/Training Certificates:</b></br> 
+    <b>- Full Stack Development (MERN Stack)</b>,  MIT Emeritus Pro</b> – Certificate in 2025
+    <b>- Data Science Immersive Course</b>, Divergence Academy – 2022
+    <b>- Statistical Analysis System (SAS) Base Programming</b>, Syracuse University – 2019
+    <b>- Lean Six Sigma, Green Belt, Black Belt Master Course – Information Technology</b>, Villanova University – 2016
 
-<b>Certifications:</b></br><sub>
-    <b>-</b> Azure Fundamentals (AZ-900), Microsoft Certified, Dec – 2021 Certificate No. 1056-7963
-    <b>-</b> Azure AI Fundamental (AI-900), Microsoft Certified, Jan – 2022 Certificate No. 1098-8730
-    <b>-</b> Power Platform Fundamentals (PL-900), Microsoft Certified, Jan – 2022 Certificate No. 1102-6906</sub>
+<b>Certifications:</b></br>
+    <b>- Azure Fundamentals (AZ-900)</b>, Microsoft Certified, Dec – 2021 Certificate No. 1056-7963
+    <b>- Azure AI Fundamental (AI-900)</b>, Microsoft Certified, Jan – 2022 Certificate No. 1098-8730
+    <b>- Power Platform Fundamentals (PL-900)</b>, Microsoft Certified, Jan – 2022 Certificate No. 1102-6906
 
-<b>Currently Pursuing:</b></br><sub>	
-    <b>-</b> CISSP  – Certified Information Systems Security Professional
-    <b>-</b> PL-200 – Microsoft Power Platform Functional Consultant
-    <b>-</b> PL-300 – Microsoft Power BI Data Analyst</sub>
+<b>Currently Pursuing:</b></br>	<e>
+    <b>- CISSP</b>  – Certified Information Systems Security Professional
+    <b>- PL-200</b> – Microsoft Power Platform Functional Consultant
+    <b>- PL-300</b> – Microsoft Power BI Data Analyst*
 
 
 </pre>
