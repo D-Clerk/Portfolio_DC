@@ -12,21 +12,21 @@
 ---
 ### Professional Profile
 <p>
-     I am a results-driven leader with over 30 years of experience, successfully transitioning military 
+ &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspI am a results-driven leader with over 30 years of experience, successfully transitioning military 
 discipline and strategic planning into civilian technology and operations management. Proven ability to
 guide teams, optimize processes, and deliver results in fast-paced, high-stakes environments.  My career
 spans the U.S. Marine Corps, federal agencies and private sectors where I’ve combined strategic vision,
 operational expertise and data-driven solutions to drive measurable outcomes.
 </p>
 <p>
-     Throughout my professional journey I have led cross-functional teams, implemented enterprise systems and 
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspThroughout my professional journey I have led cross-functional teams, implemented enterprise systems and 
 optimized processes using Lean, Six Sigma and Total Quality Management principles.  From managing
 engineering and logistics projects in high-stakes military environments to architecting cloud-based
 ERP and Power Platform solutions in the corporate world. I bring a unique perspective on efficiency,
 compliance and operational excellence.
 </p>
 <p>
-     I specialize in translating complex data and technology into actionable insights that support 
+ &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspI specialize in translating complex data and technology into actionable insights that support 
 decision-making, improve operational performance, and maximize resource utilization.  My leadership
 philosophy centers on mentorship, empowering teams, and fostering collaboration to achieve 
 organizational goals while nurturing professional growth.  For me, there is pleasure in bridging the
