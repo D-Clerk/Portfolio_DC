@@ -165,7 +165,7 @@ best practices in version control and deployment.
 demonstrating the ability to connect front-end interfaces with secure back-end APIs and cloud-based
 services. 
   
-[LogIn to Acme Email: portfolio@browsing.com  Password: Portfolio]<a href="https://github.com/D-Clerk/Portfolio_DC/blob/Digital-Portfolio/images/dcPhoto.jpg?raw=true">
+[LogIn to Acme Email: portfolio@browsing.com  Password: Portfolio](https://next-js-dashboard-vb6u.vercel.app/)
 </pre>
 <div font-size: 16px; font-family: monospace; align="center">
 
