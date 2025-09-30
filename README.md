@@ -163,19 +163,28 @@ best practices in version control and deployment.
 
      As a Capstone Project, I developed and deployed a fully integrated MERN application, 
 demonstrating the ability to connect front-end interfaces with secure back-end APIs and cloud-based
-services. 
+services. This was a great learning experience as it challenge me to get out of the MicroSoft comfort
+and get explore the pros and cons of multiple technologies and concepts.
  </pre> 
-[***LogIn to Acme App***<br>
-Email: portfolio@browsing.com  Password: Portfolio](https://next-js-dashboard-vb6u.vercel.app/)
 
 <div font-size: 16px; font-family: monospace; align="center">
 
-|               Applications                 |                 Flows                                  |       Integrations                              | 
-|--------------------------------------------|--------------------------------------------------------|-------------------------------------------------|
-|    Software Development Life Cycles (SDLC) |    Software Development Life Cycles (SDLC)             |     Software Development Life Cycles (SDLC)     |
+| M – Databases / Middleware / Modules | E – Express / Endpoints / Environment | R – React / Routing / Rendering | N – Node / Networking / npm |
+|-------------------------------------|-------------------------------------|--------------------------------|-----------------------------|
+| **MongoDB** – NoSQL database for scalable apps | **Express.js** – Node.js framework for server routing | **React.js** – Frontend library for building UI | **Node.js** – JavaScript runtime on the server |
+| **PostgreSQL** – Relational DB for structured data | **API Endpoints** – RESTful services and CRUD operations | **Next.js** – Framework for SSR, SSG, routing | **npm / yarn** – Package managers for dependencies |
+| **Mongoose** – MongoDB ODM for schemas | **Middleware** – Logging, authentication, CORS | **React Router / Dynamic Routes** – Navigation | **HTTP / Networking** – Fetch, Axios, request-response |
+| **Middleware** – Shared functions like logging, auth | **Error Handling** – Centralized error catching | **Rendering Methods** – CSR, SSR, SSG, ISR | **NextAuth.js** – Authentication & session management |
+| **Node Modules** – Reusable packages | **Environment Variables** – `.env` secrets | **React Hooks** – `useState`, `useEffect`, `useRef` | **Node Utilities** – FS, path, crypto, events |
+| **XML** – Data exchange, configuration | **ETL / Data Transformation** – Optional data handling | **Reusable Components** – Tables, forms, dashboards | **Notifications / Logging** – Console debugging, alerts |
+| **APIs** – REST, GraphQL for data integration | **Server-side Logic** – Business rules, validation | **State Management** – Redux, Context API, Recoil | **CI/CD Tools** – Vercel, GitHub Actions |
+| **Firebase / Auth Providers** – OAuth integrations | **Data Parsing** – JSON, CSV, XML | **UI / Icons** – Tailwind, Heroicons, Bootstrap | **Testing Tools** – Jest, React Testing Library |
+| **Excel / CSV Handling** – Optional data manipulation | **Adobe Tools** – Optional integrations | **HTML / JSX** – Markup for React components | **Deployment** – Vercel, Docker (optional) |
+| **Bootstrap / CSS / Tailwind** – Styling components | **Environment Config** – Dev/Prod variables | **CSS / Styling** – Tailwind, Bootstrap, custom CSS | **Package Utilities** – Scripts, CLI tools |
+
   
 </div>
-
+[***Try the application. LogIn the Acme App***: Email: portfolio@browsing.com  Password: Portfolio](https://next-js-dashboard-vb6u.vercel.app/)
 ---
 
 ### Education, Training, & Certifications
