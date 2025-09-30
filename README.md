@@ -184,8 +184,11 @@ and get explore the pros and cons of multiple technologies and concepts.
 
   
 </div>
-<b>Try the Acme App!</b> [***Click Here***](https://next-js-dashboard-vb6u.vercel.app/)<br>
-Email: portfolio@browsing.com  Password: Portfolio
+
+<div font-size: 16px; font-family: monospace;>
+<b>Try the Acme App!</b> <a href="https://next-js-dashboard-vb6u.vercel.app/" style="display:none;">Click Here</a><br>
+***Email:*** portfolio@browsing.com  ***Password:*** Portfolio
+</div>
 ---
 
 ### Education, Training, & Certifications
