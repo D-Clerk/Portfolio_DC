@@ -172,7 +172,7 @@ and get explore the pros and cons of multiple technologies and concepts.
 | M – Databases / Middleware / Modules | E – Express / Endpoints / Environment | R – React / Routing / Rendering | N – Node / Networking / npm |
 |-------------------------------------|-------------------------------------|--------------------------------|-----------------------------|
 | **MongoDB** – NoSQL database for scalable apps | **Express.js** – Node.js framework for server routing | **React.js** – Frontend library for building UI | **Node.js** – JavaScript runtime on the server |
-| **PostgreSQL** – Relational DB for structured data | **API Endpoints** – RESTful services and CRUD operations | **Next.js** – Framework for SSR, SSG, routing | **npm / yarn** – Package managers for dependencies |
+| **PostgreSQL** – Relational DB for structured data | **API Development** – Swagger and Postman (RESTful services & CRUD operations) | **Next.js** – Framework for SSR, SSG, routing | **npm / yarn** – Package managers for dependencies |
 | **Mongoose** – MongoDB ODM for schemas | **Middleware** – Logging, authentication, CORS | **React Router / Dynamic Routes** – Navigation | **HTTP / Networking** – Fetch, Axios, request-response |
 | **Middleware** – Shared functions like logging, auth | **Error Handling** – Centralized error catching | **Rendering Methods** – CSR, SSR, SSG, ISR | **NextAuth.js** – Authentication & session management |
 | **Node Modules** – Reusable packages | **Environment Variables** – `.env` secrets | **React Hooks** – `useState`, `useEffect`, `useRef` | **Node Utilities** – FS, path, crypto, events |
@@ -184,7 +184,7 @@ and get explore the pros and cons of multiple technologies and concepts.
 
   
 </div>
-[***Try the application.*** LogIn the Acme App***](https://next-js-dashboard-vb6u.vercel.app/)
+<b>Try the Acme App!</b> [***Click Here***](https://next-js-dashboard-vb6u.vercel.app/)<br>
 Email: portfolio@browsing.com  Password: Portfolio
 ---
 
