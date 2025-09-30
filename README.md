@@ -184,7 +184,8 @@ and get explore the pros and cons of multiple technologies and concepts.
 
   
 </div>
-[***Try the application. LogIn the Acme App***: Email: portfolio@browsing.com  Password: Portfolio](https://next-js-dashboard-vb6u.vercel.app/)
+[***Try the application.*** LogIn the Acme App***](https://next-js-dashboard-vb6u.vercel.app/)
+Email: portfolio@browsing.com  Password: Portfolio
 ---
 
 ### Education, Training, & Certifications
