@@ -189,10 +189,11 @@ and get explore the pros and cons of multiple technologies and concepts.
 <b>Try the Acme App!</b> <a href="https://next-js-dashboard-vb6u.vercel.app/" style="display:none;">Click Here</a><br>
 <b>Email:</b> portfolio@browsing.com  <b>Password:</b> Portfolio
 </div>
+
+
 ---
-
 ### Education, Training, & Certifications
-
+<pre <div font-size: 16px; font-family: monospace;>
 Learning must be continuous.  Although, staying up-to-date with best practices and the latest technology is mostly
 hardwork the results are so rewarding that my passion for learning enables me to describe learning as FUN! I spent 
 many years getting expertise in various industries/business units now it is time for me to validate my professionalism 
@@ -219,7 +220,7 @@ Power Platform Fundamentals (PL-900), Microsoft Certified, Jan – 2022 Certific
     *PL-300 – Microsoft Power BI Data Analyst*<br>
 
 
-
+</pre>
 ---
 
 Contact me on LinkedIn: [David Clerk](https://www.linkedin.com/in/david-clerk-jp)  or via email: [david.clerk.jp@gmail.com](mailto:david.clerk.jp@gmail.com).
