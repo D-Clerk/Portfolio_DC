@@ -186,7 +186,7 @@ specific skillset and explore the pros and cons of multiple technologies.
 |<sub><b>APIs</b> – REST, GraphQL</sub> |<sub><b>Server-Side Logic</b> – Business Rules, Validation</sub> |<sub><b>State Management</b> – Redux, Context API, Recoil</sub> |<sub><b>CI/CD Tools</b> – Vercel, GitHub Actions</sub> |
 |<sub><b>Firebase/Auth Providers</b> – OAuth Integrations</sub> |<sub><b>Middleware</b> – Logging, Authentication, CORS</sub> |<sub><b>UI/Icons</b> – Tailwind, Heroicons, Bootstrap</sub> |<sub><b>Testing Tools</b> – Jest, React Testing Library</sub> |
 |<sub><b>Excel/CSV Handling</b> – Optional Data Manipulation</sub> |<sub><b>Error Handling</b> – Centralized Error Trapping</sub> |<sub><b>HTML/JSX</b> – Markup For React Components</sub> |<sub><b>Deployment</b> – Vercel, Docker</sub> |
-|<sub><b>Bootstrap/CSS/Tailwind</b> – Styling Components</sub> |<sub><b></b></sub> |<sub><b>GitHum</b> – Version Control, Cloud Hosting, Collaboration, Continuous Integration</sub> |<sub><b>Package Utilities</b> – Scripts, CLI Tools</sub> |
+|<sub><b>Bootstrap/CSS/Tailwind</b> – Styling Components</sub> |<sub><b></b></sub> |<sub><b>GitHub</b> – Version Control, Cloud Hosting, Collaboration, Continuous Integration</sub> |<sub><b>Package Utilities</b> – Scripts, CLI Tools</sub> |
 
   
 </div>
