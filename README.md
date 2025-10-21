@@ -12,11 +12,11 @@
 ---
 ### Professional Profile
 <p>
- &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspI am a results-driven leader with over 30 years of experience, I've successfully transitioned my best tenants of military  
-discipline and strategic planning into technology and operations management. Proven ability to
-guide teams, optimize processes, and deliver results in fast-paced, high-stakes environments.  My career
+ &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspI am a results-driven leader with over 30 years of experience, My career
 spans the U.S. Marine Corps, federal agencies and private sectors where I’ve combined strategic vision,
-operational expertise and data-driven solutions to drive measurable outcomes.
+operational expertise and data-driven solutions to drive measurable outcomes. I've successfully transitioned my best tenants
+of military discipline and strategic planning into technology and operations management; this transition has provided me the
+oppurtunity to prove my ability to led teams, optimize processes, and deliver results in fast-paced, high-stakes environments.  
 </p>
 <p>
   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspThroughout my professional journey I have led cross-functional teams, implemented enterprise systems and 
