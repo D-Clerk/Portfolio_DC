@@ -12,7 +12,7 @@
 ---
 ### Professional Profile
 <p>
- &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspI am a results-driven leader with over 30 years of experience, My career
+ &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspI am a results-driven leader with over 30 years of experience, my career
 spans the U.S. Marine Corps, federal agencies and private sectors where I’ve combined strategic vision,
 operational expertise and data-driven solutions to drive measurable outcomes. I've successfully transitioned my best tenants
 of military discipline and strategic planning into technology and operations management; this transition has provided me the
