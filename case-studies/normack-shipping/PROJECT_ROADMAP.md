@@ -60,17 +60,17 @@ Use timeboxed 1–2 week iterations as a planning target, not a fixed commitment
 
 The following are candidate iterations, not a waterfall critical path. Priorities will be reviewed and adjusted after each iteration based on evidence, business value, technical dependencies, and feedback.
 
-### Iteration 0 — Enterprise Foundation
+### Iteration D00 — Enterprise Foundation
 
 **Business Question:** What services, roles, transactions, and constraints define NorMack?
 
 **Evidence & Deliverables**
-- Enterprise profile and operating model
-- 15-person organizational structure and responsibility matrix
-- Service catalog for logistics, storage, crating, and specialty pallets
-- Business scenario charter and operating assumptions
-- Source-of-truth and data governance rules
-- Synthetic data generator specification
+- P01 Enterprise profile and Operating Model
+- P02 Organizational Structure and Responsibility Matrix
+- P03 Service Catalog For Logistics, Storage, Crating, and Specialty Pallets
+- P04 Business Scenario Charter and Operating Assumptions
+- P05 Source-of-Truth and Data Governance Rules
+- P06 Synthetic Data Generator Specification
 
 **GitHub Issues:** BA-09, BA-07, BA-01, BA-10
 
@@ -81,12 +81,12 @@ The following are candidate iterations, not a waterfall critical path. Prioritie
 **Business Question:** Why are pickups and deliveries late, and which operational handoffs contribute?
 
 **Evidence & Deliverables**
-- Shipment lifecycle and event datasets
-- AS-IS pickup-to-delivery process map
-- Simulated stakeholder interviews
-- Operational KPI baseline
-- Root-cause hypotheses and supporting evidence
-- Initial dispatch performance dashboard
+- P07 Shipment Lifecycle and Event Datasets
+- P08 AS-IS Pickup-to-Selivery Process Map
+- P09 Simulated Stakeholder Interviews
+- P10 Operational KPI Baseline
+- P11 Root-Cause Hypotheses and Supporting Evidence
+- P12 Initial Dispatch Performance Dashboard
 
 **GitHub Issues:** BA-07, BA-01, BA-06, DE-03, BI-01, ST-01
 
@@ -97,12 +97,12 @@ The following are candidate iterations, not a waterfall critical path. Prioritie
 **Business Question:** Why is cargo difficult to locate, release, or reconcile?
 
 **Evidence & Deliverables**
-- Chain-of-custody and location datasets
-- Receiving, storage, and release workflows
-- Entity Relationship Diagram (ERD)
-- User stories and acceptance criteria
-- Functional design for cargo tracking
-- Browser-based storage tracking proof of concept
+- P13 Chain-of-custody and location datasets
+- P14 Receiving, storage, and release workflows
+- P15 Entity Relationship Diagram (ERD)
+- P16 User stories and acceptance criteria
+- P17 Functional design for cargo tracking
+- P18 Browser-based storage tracking proof of concept
 
 **GitHub Issues:** APP-01, BA-04, BA-05, BA-02, DE-02, BA-08
 
@@ -113,12 +113,12 @@ The following are candidate iterations, not a waterfall critical path. Prioritie
 **Business Question:** How do quoting, material shortages, assembly, and scheduling affect shipment readiness and profitability?
 
 **Evidence & Deliverables**
-- Custom crate and specialty pallet specifications
-- Bill of Materials (BOM) and material inventory datasets
-- Procurement-to-assembly process maps
-- Product costing and margin models
-- Functional and technical designs
-- Supply chain and assembly management prototype
+- P19 Custom crate and specialty pallet specifications
+- P20 Bill of Materials (BOM) and material inventory datasets
+- P21 Procurement-to-assembly process maps
+- P22 Product costing and margin models
+- P23 Functional and technical designs
+- P24 Supply chain and assembly management prototype
 
 **GitHub Issues:** APP-02, APP-03, BA-02, BA-03, DE-05, BI-02
 
@@ -129,13 +129,13 @@ The following are candidate iterations, not a waterfall critical path. Prioritie
 **Business Question:** Can operations and finance agree on consistent transactions, measures, and reporting outcomes?
 
 **Evidence & Deliverables**
-- Enterprise data dictionary
-- Raw and curated synthetic datasets
-- SQL database implementation
-- Optional Microsoft Fabric data pipelines
-- Data quality and reconciliation rules
-- Dimensional models and semantic layer
-- Data lineage documentation
+- P25 Enterprise data dictionary
+- P26 Raw and curated synthetic datasets
+- P27 SQL database implementation
+- P28 Optional Microsoft Fabric data pipelines
+- P29 Data quality and reconciliation rules
+- P30 Dimensional models and semantic layer
+- P31 Data lineage documentation
 
 **GitHub Issues:** DE-01, DE-02, DE-03, DE-04, DE-05, BI-06, BI-08
 
@@ -164,13 +164,13 @@ The following are candidate iterations, not a waterfall critical path. Prioritie
 **Business Question:** Which targeted technology solutions can reduce manual work, improve accountability, and strengthen operational control?
 
 **Evidence & Deliverables**
-- Power Platform application designs
-- Browser-accessible application simulations
-- MERN full-stack application
-- REST API and integration specifications
-- User interface and usability demonstrations
-- Role-based access and permissions testing
-- Functional and technical validation
+- P32 Power Platform application designs
+- P33 Browser-accessible application simulations
+- P34 MERN full-stack application
+- P35 REST API and integration specifications
+- P36 User interface and usability demonstrations
+- P37 Role-based access and permissions testing
+- P38 Functional and technical validation
 
 **GitHub Issues:** APP-01 through APP-06, BA-03, BA-10, BA-08
 
@@ -181,13 +181,13 @@ The following are candidate iterations, not a waterfall critical path. Prioritie
 **Business Question:** Which recommendations offer the greatest expected operational and financial value?
 
 **Evidence & Deliverables**
-- Evaluation of alternative solutions
-- Cost-benefit analysis and ROI assumptions
-- Executive KPI scorecard
-- Scenario comparison and business recommendations
-- Interactive PowerPoint presentation
-- Portfolio demonstration walkthrough
-- Final assessment of simulated business outcomes
+- P39 Evaluation of alternative solutions
+- P40 Cost-benefit analysis and ROI assumptions
+- P41 Executive KPI scorecard
+- P42 Scenario comparison and business recommendations
+- P43 Interactive PowerPoint presentation
+- P44 Portfolio demonstration walkthrough
+- P45 Final assessment of simulated business outcomes
 
 **GitHub Issues:** ST-01 through ST-05, BA-09, BA-08
 
