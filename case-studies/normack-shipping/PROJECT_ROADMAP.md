@@ -9,34 +9,36 @@
 **Portfolio Case Study:** Fictional organization and synthetic data  
 **Status:** Planning  
 **Repository:** Portfolio_DC/case-studies/Normack-shipping/  
-**GitHub Project:** Portfolio_DC (Project #17)  
+**GitHub Project:** Portfolio_DC (Project #17)
 
-
-1. Purpose and operating approach
+# 1. Purpose and Operating Approach
 NorMack Shipping LLC is a fictional 15-person company whose primary business is contracted air and ground cargo pickup and delivery, including LTL and freight services. Complementary operations include temporary in-transit cargo storage, custom hybrid/corrugated crating (triple-wall corrugated board, wood framing, protective systems), and interlocking/specialty pallet assembly.
 
 The portfolio demonstrates an iterative, evidence-led transformation: investigate reported problems, make business hypotheses explicit, develop requirements, test thin end-to-end solutions, collect feedback, and improve them. Phases are navigation and competency areas—not sequential approval barriers. Discovery, requirements, design, data engineering, application development, validation, BI, and storytelling recur during every iteration.
 
-All entities, records, incidents, results, customer relationships, and KPIs are simulated. References to recognizable carriers (such as DHL) describe an industry context, not actual contracts or endorsements.
-Objectives
+All entities, records, incidents, results, customer relationships, and KPIs are simulated. References to recognizable carriers (such as DHL) describe an industry context, not actual contracts or endorsements.  
+## Objectives
 1. Examine how dispatch, storage, crating, pallet assembly, purchasing, staffing, finance, and reporting influence each other.
 2. Show traceability from symptom and evidence to requirements, decisions, implementation, tests, and business recommendations.
 3. Build consistent, reproducible synthetic datasets supporting all portfolio artifacts.
 4. Create browser-accessible demonstrations where possible, clearly distinguishing simulations from native Power Apps, Power BI, or Business Central implementations.
 5. Publish only validated deliverables and label forecast or scenario results appropriately.
-2. Iterative delivery model
+   
+# 2. Iterative Delivery Model  
 ```mermaid
-flowchart LR
-    A[Identify a business problem] --> B[Gather evidence & baseline]
-    B --> C[Prioritize a thin scenario]
-    C --> D[Define acceptance criteria]
-    D --> E[Design & build a vertical slice]
-    E --> F[Test against synthetic ground truth]
-    F --> G[Demo & capture feedback]
-    G --> H[Publish evidence & insights]
-    H --> I{Next highest-value improvement?}
+%%{init: {"theme": "default", "themeVariables": {"fontSize": "20px"}, "flowchart": {"nodeSpacing": 55, "rankSpacing": 75, "useMaxWidth": false}}}%%
+
+flowchart TB
+    A["Identify a business problem"] --> B["Gather evidence and baseline"]
+    B --> C["Prioritize a thin scenario"]
+    C --> D["Define acceptance criteria"]
+    D --> E["Design and build a vertical slice"]
+    E --> F["Test against synthetic ground truth"]
+    F --> G["Demonstrate and capture feedback"]
+    G --> H["Publish evidence and insights"]
+    H --> I{"Next highest-value improvement?"}
     I -->|Yes| B
-    I -->|No| J[Consolidated portfolio review]
+    I -->|No| J["Consolidated portfolio review"]
 ```
 Iteration cadence
 Use timeboxed 1–2 week iterations as a planning target, not a fixed commitment. Each iteration ends with a reviewable artifact, verification evidence, an updated risk/decision log, and a revised backlog. A brief discovery spike can precede a build slice when data or requirements are uncertain.
