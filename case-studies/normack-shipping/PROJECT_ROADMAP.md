@@ -40,21 +40,21 @@ flowchart LR
     I -->|Yes| B
     I -->|No| J["Consolidated portfolio review"]
 ```
-Iteration cadence
-Use timeboxed 1–2 week iterations as a planning target, not a fixed commitment. Each iteration ends with a reviewable artifact, verification evidence, an updated risk/decision log, and a revised backlog. A brief discovery spike can precede a build slice when data or requirements are uncertain.
-Definition of Ready
+### Iteration cadence
+Use timeboxed 1–2 week iterations as a planning target, not a fixed commitment. Each iteration ends with a reviewable artifact, verification evidence, an updated risk/decision log, and a revised backlog. A brief discovery spike can precede a build slice when data or requirements are uncertain.  
+### Definition of Ready
 - Business question, stakeholder perspective, and affected services identified.
 - At least one hypothesis and the evidence needed to test it recorded.
 - Synthetic data requirements and privacy-safe assumptions documented.
-- Acceptance criteria stated in testable terms; key dependencies known.
-Definition of Done / Showcase Ready
+- Acceptance criteria stated in testable terms; key dependencies known.  
+### Definition of Done / Showcase Ready
 - Work item has a clear business problem, scope, and traceable requirements.
 - Source, sample data, generation method, and run instructions are reproducible where applicable.
 - Evidence of testing/validation and limitations is provided.
 - Narrative distinguishes observed synthetic results, modeled scenarios, and unimplemented recommendations.
 - README includes links to relevant documents, code, and a demonstration (or screenshots/video when interactive hosting is infeasible).
-- No live credentials, private operational data, or paid-service access required of viewers.
-3. Outcome-driven iterations
+- No live credentials, private operational data, or paid-service access required of viewers.  
+# 3. Outcome-driven iterations
 The following are candidate iterations, not a waterfall critical path. Reprioritize after each review.
 Iteration	Business question and vertical slice	Core evidence & deliverables	GitHub issues emphasized
 0 — Foundation	What services, roles, transactions and constraints define NorMack?	Enterprise profile, 15-person role matrix, service catalog, scenario charter, source-of-truth rules, seeded data generator specification	BA-09, BA-07, BA-01, BA-10
