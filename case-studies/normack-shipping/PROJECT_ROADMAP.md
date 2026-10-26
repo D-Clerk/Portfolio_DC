@@ -1,6 +1,7 @@
 <p align="right">
-  <a href="README.md">← Case Study Introduction</a> ·
-  <a href="01-enterprise-profile/README.md">Enterprise Profile</a> ·
+  <a href="../../README.md">View Professional Profile</a> ·
+  <a href="01-enterprise-profile/README.md">View Enterprise Profile</a> ·
+  <a href="README.md">Case Study Introduction</a> ·
   <a href="02-business-discovery/README.md">Discovery</a>
 </p>
 
