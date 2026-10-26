@@ -76,6 +76,10 @@ The following are candidate iterations, not a waterfall critical path. Prioritie
 
 ### Iteration D00 — Enterprise Foundation
 
+**GitHub issue hierarchy:** [D00 parent issue #37](https://github.com/D-Clerk/Portfolio_DC/issues/37) groups the existing portfolio showcase issues; individual roadmap products are nested under those showcase issues.
+
+**Planning status:** This hierarchy organizes planned work only. Issue completion does not mean a deliverable is complete; mark deliverables complete only after the supporting artifact is published and validated.
+
 **Business Question:** What services, roles, transactions, and constraints define NorMack?
 
 **Evidence & Deliverables**
