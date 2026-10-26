@@ -26,7 +26,7 @@ All entities, records, incidents, results, customer relationships, and KPIs are 
    
 # 2. Iterative Delivery Model  
 ```mermaid
-%%{init: {"theme": "default", "themeVariables": {"fontSize": "20px"}, "flowchart": {"nodeSpacing": 55, "rankSpacing": 75, "useMaxWidth": false}}}%%
+%%{init: {"theme": "default", "themeVariables": {"fontSize": "20px"}, "flowchart": {"nodeSpacing": 75, "rankSpacing": 150, "useMaxWidth": false}}}%%
 
 flowchart LR
     A["Identify a business problem"] --> B["Gather evidence and baseline"]
