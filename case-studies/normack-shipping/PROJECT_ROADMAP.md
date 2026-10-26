@@ -1,7 +1,8 @@
-NorMack Shipping LLC — Iterative Enterprise Transformation Roadmap
-Portfolio case study | Fictional organization and synthetic data | Status: Planning
-Repository: Portfolio_DC/case-studies/normack-shipping/
-GitHub Project: Portfolio_DC (Project #17)
+**Company - NorMack Shipping LLC:** Iterative Enterprise Transformation Roadmap
+**Portfolio Case Study:** Fictional organization and synthetic data
+**Status:** Planning
+**Repository:** Portfolio_DC/case-studies/Normack-shipping/
+**GitHub Project:** Portfolio_DC (Project #17)
 
 [← Case Study Introduction](README.md) · [Enterprise Profile](01-enterprise-profile/README.md) · [Discovery](02-business-discovery/README.md)
 1. Purpose and operating approach
