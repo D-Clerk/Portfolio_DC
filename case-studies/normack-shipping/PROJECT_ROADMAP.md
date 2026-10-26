@@ -24,17 +24,17 @@ All entities, records, incidents, results, customer relationships, and KPIs are 
 4. Create browser-accessible demonstrations where possible, clearly distinguishing simulations from native Power Apps, Power BI, or Business Central implementations.
 5. Publish only validated deliverables and label forecast or scenario results appropriately.
 
-### 9. Preliminary Operational Assessment — Day-in-the-Life & Discovery Plan: Enterprise Foundation D00 — Executive Decision Support D07
-Outcome: A coherent, believable small-business operating model and enough synthetic-data specification to investigate the first cross-functional issue.
-- [ ] Confirm service catalog: ground and air cargo pickup/delivery, LTL, temporary transit storage, hybrid crating, specialty pallets.
-- [ ] Draft 15-position organization and RACI with realistic combined duties.
-- [ ] Define physical assets: facilities, vehicle types, equipment and storage zones (assumptions explicitly marked).
-- [ ] Define core order-to-delivery workflow and storage handoff points.
-- [ ] Write 3–5 executive-reported symptoms without presupposing causes.
-- [ ] Draft stakeholder interview guide and first evidence-request list.
-- [ ] Define synthetic data dictionary v0.1 and stable master IDs.
-- [ ] Choose a first vertical slice (PRB-001: late or disputed shipment handoff).
-- [ ] Review scope, set initial acceptance criteria and record open decisions.
+    ### Preliminary Operational Assessment — Day-in-the-Life & Discovery Plan: Enterprise Foundation D00 — Executive Decision Support D07
+    Outcome: A coherent, believable small-business operating model and enough synthetic-data specification to investigate the first cross-functional issue.
+    - [ ] Confirm service catalog: ground and air cargo pickup/delivery, LTL, temporary transit storage, hybrid crating, specialty pallets.
+    - [ ] Draft 15-position organization and RACI with realistic combined duties.
+    - [ ] Define physical assets: facilities, vehicle types, equipment and storage zones (assumptions explicitly marked).
+    - [ ] Define core order-to-delivery workflow and storage handoff points.
+    - [ ] Write 3–5 executive-reported symptoms without presupposing causes.
+    - [ ] Draft stakeholder interview guide and first evidence-request list.
+    - [ ] Define synthetic data dictionary v0.1 and stable master IDs.
+    - [ ] Choose a first vertical slice (PRB-001: late or disputed shipment handoff).
+    - [ ] Review scope, set initial acceptance criteria and record open decisions.
    
 # 2. Iterative Delivery Model  
 ```mermaid
