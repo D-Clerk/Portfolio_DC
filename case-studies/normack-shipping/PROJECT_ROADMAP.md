@@ -219,6 +219,25 @@ The portfolio contains 34 showcase issues organized into five professional compe
 
 Issue identifiers provide traceability across iterations, deliverables, and case-study phases. An issue may contribute to multiple iterations.
 
+### Business Analysis & Solution Documentation
+
+**Issues:** BA-01 through BA-10
+
+**Primary Phases**
+- [01 — Enterprise Profile](01-enterprise-profile/README.md)
+- [02 — Business Discovery](02-business-discovery/README.md)
+- [03 — Requirements & Business Case](03-requirements-and-business-case/README.md)
+- [04 — Solution Design](04-solution-design/README.md)
+- [07 — Testing & Validation](07-testing/README.md)
+
+### Data Storytelling & Executive Communication
+
+**Issues:** ST-01 through ST-05
+
+**Primary Phases**
+- [03 — Requirements & Business Case](03-requirements-and-business-case/README.md)
+- [09 — Executive Storytelling](09-executive-storytelling/README.md)
+
 ### Business Intelligence & Data Analytics
 
 **Issues:** BI-01 through BI-08
@@ -242,25 +261,6 @@ Issue identifiers provide traceability across iterations, deliverables, and case
 **Primary Phases**
 - [05 — Data Engineering](05-data-engineering/README.md)
 - [07 — Testing & Validation](07-testing/README.md)
-
-### Business Analysis & Solution Documentation
-
-**Issues:** BA-01 through BA-10
-
-**Primary Phases**
-- [01 — Enterprise Profile](01-enterprise-profile/README.md)
-- [02 — Business Discovery](02-business-discovery/README.md)
-- [03 — Requirements & Business Case](03-requirements-and-business-case/README.md)
-- [04 — Solution Design](04-solution-design/README.md)
-- [07 — Testing & Validation](07-testing/README.md)
-
-### Data Storytelling & Executive Communication
-
-**Issues:** ST-01 through ST-05
-
-**Primary Phases**
-- [03 — Requirements & Business Case](03-requirements-and-business-case/README.md)
-- [09 — Executive Storytelling](09-executive-storytelling/README.md)
 
 ### Prioritization Framework
 
