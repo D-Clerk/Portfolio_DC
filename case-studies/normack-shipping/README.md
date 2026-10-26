@@ -50,7 +50,7 @@ Evaluate NorMack's operating environment, identify performance gaps and root cau
 
 The engagement will follow a structured business solution lifecycle.
 
-## 4. Case Study Walkthrough
+### 4. Case Study Walkthrough
 
 | Phase | Focus |
 |---|---|
