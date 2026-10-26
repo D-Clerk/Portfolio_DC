@@ -1,7 +1,7 @@
 <p align="right">
-  <a href="README.md">← Digital Portfolio</a> ·
-  <a href="01-enterprise-profile/README.md">Enterprise Profile</a> ·
-  <a href="02-business-discovery/README.md">Discovery</a>
+  <a href="README.md">← My Digital Portfolio</a> ·
+  <a href="01-enterprise-profile/README.md">View Enterprise Profile</a> ·
+  <a href="02-business-discovery/README.md"> View Discovery</a>
 </p>
 ## David Clerk
     
