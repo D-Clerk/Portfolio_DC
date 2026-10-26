@@ -1,10 +1,17 @@
-**Company - NorMack Shipping LLC:** Iterative Enterprise Transformation Roadmap
-**Portfolio Case Study:** Fictional organization and synthetic data
-**Status:** Planning
-**Repository:** Portfolio_DC/case-studies/Normack-shipping/
-**GitHub Project:** Portfolio_DC (Project #17)
+<p align="right">
+  <a href="README.md">← Case Study Introduction</a> ·
+  <a href="01-enterprise-profile/README.md">Enterprise Profile</a> ·
+  <a href="02-business-discovery/README.md">Discovery</a>
+</p>
 
-[← Case Study Introduction](README.md) · [Enterprise Profile](01-enterprise-profile/README.md) · [Discovery](02-business-discovery/README.md)
+
+**Company - NorMack Shipping LLC:** Iterative Enterprise Transformation Roadmap  
+**Portfolio Case Study:** Fictional organization and synthetic data  
+**Status:** Planning  
+**Repository:** Portfolio_DC/case-studies/Normack-shipping/  
+**GitHub Project:** Portfolio_DC (Project #17)  
+
+
 1. Purpose and operating approach
 NorMack Shipping LLC is a fictional 15-person company whose primary business is contracted air and ground cargo pickup and delivery, including LTL and freight services. Complementary operations include temporary in-transit cargo storage, custom hybrid/corrugated crating (triple-wall corrugated board, wood framing, protective systems), and interlocking/specialty pallet assembly.
 
