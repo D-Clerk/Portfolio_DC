@@ -1,5 +1,5 @@
 <p align="right">
-  <a href="README.md">← My Digital Portfolio</a> ·
+  <a href="README.md">← View Digital Portfolio</a> ·
   <a href="01-enterprise-profile/README.md">View Enterprise Profile</a> ·
   <a href="02-business-discovery/README.md"> View Discovery</a>
 </p>
