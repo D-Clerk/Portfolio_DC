@@ -28,7 +28,7 @@ All entities, records, incidents, results, customer relationships, and KPIs are 
 ```mermaid
 %%{init: {"theme": "default", "themeVariables": {"fontSize": "20px"}, "flowchart": {"nodeSpacing": 55, "rankSpacing": 75, "useMaxWidth": false}}}%%
 
-flowchart TB
+flowchart LR
     A["Identify a business problem"] --> B["Gather evidence and baseline"]
     B --> C["Prioritize a thin scenario"]
     C --> D["Define acceptance criteria"]
