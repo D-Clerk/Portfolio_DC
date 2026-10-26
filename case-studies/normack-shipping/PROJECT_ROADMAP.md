@@ -23,6 +23,18 @@ All entities, records, incidents, results, customer relationships, and KPIs are 
 3. Build consistent, reproducible synthetic datasets supporting all portfolio artifacts.
 4. Create browser-accessible demonstrations where possible, clearly distinguishing simulations from native Power Apps, Power BI, or Business Central implementations.
 5. Publish only validated deliverables and label forecast or scenario results appropriately.
+
+### 9. Preliminary Operational Assessment — Day-in-the-Life & Discovery Plan: Enterprise Foundation D00 — Executive Decision Support D07
+Outcome: A coherent, believable small-business operating model and enough synthetic-data specification to investigate the first cross-functional issue.
+- [ ] Confirm service catalog: ground and air cargo pickup/delivery, LTL, temporary transit storage, hybrid crating, specialty pallets.
+- [ ] Draft 15-position organization and RACI with realistic combined duties.
+- [ ] Define physical assets: facilities, vehicle types, equipment and storage zones (assumptions explicitly marked).
+- [ ] Define core order-to-delivery workflow and storage handoff points.
+- [ ] Write 3–5 executive-reported symptoms without presupposing causes.
+- [ ] Draft stakeholder interview guide and first evidence-request list.
+- [ ] Define synthetic data dictionary v0.1 and stable master IDs.
+- [ ] Choose a first vertical slice (PRB-001: late or disputed shipment handoff).
+- [ ] Review scope, set initial acceptance criteria and record open decisions.
    
 # 2. Iterative Delivery Model  
 ```mermaid
@@ -41,7 +53,8 @@ flowchart LR
     I -->|No| J["Consolidated portfolio review"]
 ```
 ### Iteration Cadence
-Use timeboxed 1–2 week iterations as a planning target, not a fixed commitment. Each iteration ends with a reviewable artifact, verification evidence, an updated risk/decision log, and a revised backlog. A brief discovery spike can precede a build slice when data or requirements are uncertain.  
+Use timeboxed 1–2 week iterations as a planning target, not a fixed commitment. Each iteration ends with a reviewable artifact, verification evidence, an updated risk/decision log, and a revised backlog. A brief discovery spike can precede a build slice when data or requirements are uncertain.
+
 ### Definition of Ready
 - Business question, stakeholder perspective, and affected services identified.
 - At least one hypothesis and the evidence needed to test it recorded.
@@ -76,7 +89,7 @@ The following are candidate iterations, not a waterfall critical path. Prioritie
 
 ---
 
-### Iteration 1 — Order-to-Delivery
+### Iteration D01 — Order-to-Delivery
 
 **Business Question:** Why are pickups and deliveries late, and which operational handoffs contribute?
 
@@ -92,7 +105,7 @@ The following are candidate iterations, not a waterfall critical path. Prioritie
 
 ---
 
-### Iteration 2 — In-Transit Storage
+### Iteration D02 — In-Transit Storage
 
 **Business Question:** Why is cargo difficult to locate, release, or reconcile?
 
@@ -108,7 +121,7 @@ The following are candidate iterations, not a waterfall critical path. Prioritie
 
 ---
 
-### Iteration 3 — Crating & Specialty Pallets
+### Iteration D03 — Crating & Specialty Pallets
 
 **Business Question:** How do quoting, material shortages, assembly, and scheduling affect shipment readiness and profitability?
 
@@ -124,7 +137,7 @@ The following are candidate iterations, not a waterfall critical path. Prioritie
 
 ---
 
-### Iteration 4 — Trusted Enterprise Data
+### Iteration D04 — Trusted Enterprise Data
 
 **Business Question:** Can operations and finance agree on consistent transactions, measures, and reporting outcomes?
 
@@ -141,7 +154,7 @@ The following are candidate iterations, not a waterfall critical path. Prioritie
 
 ---
 
-### Iteration 5 — Analytics & Forecasting
+### Iteration D05 — Analytics & Forecasting
 
 **Business Question:** What drives service performance, costs, operational capacity, and customer demand?
 
@@ -159,7 +172,7 @@ The following are candidate iterations, not a waterfall critical path. Prioritie
 
 ---
 
-### Iteration 6 — Applications & User Experience
+### Iteration D06 — Applications & User Experience
 
 **Business Question:** Which targeted technology solutions can reduce manual work, improve accountability, and strengthen operational control?
 
@@ -176,7 +189,7 @@ The following are candidate iterations, not a waterfall critical path. Prioritie
 
 ---
 
-### Iteration 7 — Executive Decision Support
+### Iteration D07 — Executive Decision Support
 
 **Business Question:** Which recommendations offer the greatest expected operational and financial value?
 
@@ -454,16 +467,5 @@ The objective is not to follow a fixed plan regardless of findings, but to demon
 - Nine phase landing pages: Navigate by lifecycle and competency; link to actual outputs only as those outputs exist.
 - Competency entry points: Business Intelligence, Data Engineering, Enterprise Applications, Solution Documentation, and Executive Storytelling.
 - Project tracking: GitHub Project #17 holds issue status, priority, competency, technology and dependencies. Keep planning tasks distinct from completed showcase evidence.  
-# 9. First iteration: Foundation 0 — Actionable Plan
-Outcome: A coherent, believable small-business operating model and enough synthetic-data specification to investigate the first cross-functional issue.
-- [ ] Confirm service catalog: ground and air cargo pickup/delivery, LTL, temporary transit storage, hybrid crating, specialty pallets.
-- [ ] Draft 15-position organization and RACI with realistic combined duties.
-- [ ] Define physical assets: facilities, vehicle types, equipment and storage zones (assumptions explicitly marked).
-- [ ] Define core order-to-delivery workflow and storage handoff points.
-- [ ] Write 3–5 executive-reported symptoms without presupposing causes.
-- [ ] Draft stakeholder interview guide and first evidence-request list.
-- [ ] Define synthetic data dictionary v0.1 and stable master IDs.
-- [ ] Choose a first vertical slice (PRB-001: late or disputed shipment handoff).
-- [ ] Review scope, set initial acceptance criteria and record open decisions.
-Iteration 0 completion criteria: Reviewable enterprise profile, initial service/process context, traceable first business problem, and a documented synthetic-data plan. No requirement to finish all nine phases before beginning the first demonstration.
+
 Portfolio disclaimer: This is a simulated enterprise transformation developed for professional demonstration. No client data or real operational outcomes are claimed.
