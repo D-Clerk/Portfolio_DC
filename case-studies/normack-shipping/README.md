@@ -1,5 +1,6 @@
 <p align="right">
-  <a href="../../README.md">← View Professional Profile</a> ·
+  <a href="../../README.md">View Professional Profile</a> ·
+  <a href="../README.md">View Enterprise Profile</a> ·
   <a href="PROJECT_ROADMAP.md">View Project Roadmap</a> ·
   <a href="02-business-discovery/README.md">View Discovery</a>
 </p>
