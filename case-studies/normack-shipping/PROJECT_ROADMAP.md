@@ -40,7 +40,7 @@ flowchart LR
     I -->|Yes| B
     I -->|No| J["Consolidated portfolio review"]
 ```
-### Iteration cadence
+### Iteration Cadence
 Use timeboxed 1–2 week iterations as a planning target, not a fixed commitment. Each iteration ends with a reviewable artifact, verification evidence, an updated risk/decision log, and a revised backlog. A brief discovery spike can precede a build slice when data or requirements are uncertain.  
 ### Definition of Ready
 - Business question, stakeholder perspective, and affected services identified.
@@ -54,78 +54,407 @@ Use timeboxed 1–2 week iterations as a planning target, not a fixed commitment
 - Narrative distinguishes observed synthetic results, modeled scenarios, and unimplemented recommendations.
 - README includes links to relevant documents, code, and a demonstration (or screenshots/video when interactive hosting is infeasible).
 - No live credentials, private operational data, or paid-service access required of viewers.  
-# 3. Outcome-driven iterations
-The following are candidate iterations, not a waterfall critical path. Reprioritize after each review.
-Iteration	Business question and vertical slice	Core evidence & deliverables	GitHub issues emphasized
-0 — Foundation	What services, roles, transactions and constraints define NorMack?	Enterprise profile, 15-person role matrix, service catalog, scenario charter, source-of-truth rules, seeded data generator specification	BA-09, BA-07, BA-01, BA-10
-1 — Order-to-Delivery	Why are pickups/deliveries late and which handoffs contribute?	Shipment lifecycle events; AS-IS map; interview simulation; KPI baseline; root-cause hypotheses; early dispatch dashboard	BA-07, BA-01, BA-06, DE-03, BI-01, ST-01
-2 — In-Transit Storage	Why is cargo difficult to locate, release, or reconcile?	Chain-of-custody and location datasets, storage workflow, ERD, traceable user stories, browser-based cargo tracking proof of concept	APP-01, BA-04, BA-05, BA-02, DE-02, BA-08
-3 — Crating & Specialty Pallets	How do quotes, material shortages, assembly and scheduling affect shipment readiness and margin?	Crate/BOM and pallet specifications, procurement-to-assembly map, costing model, functional design, supply-chain prototype	APP-02, APP-03, BA-02, BA-03, DE-05, BI-02
-4 — Trusted Enterprise Data	Can operations and finance agree on the same events and measures?	Data dictionary, raw/curated datasets, SQL + optional Fabric pipeline, validation rules, dimensional model, lineage	DE-01, DE-02, DE-03, DE-04, DE-05, BI-06, BI-08
-5 — Analytics & Forecasts	What drives service, cost, capacity and demand outcomes?	Interactive KPI and finance reports; DAX, M and R exemplars; forecasting and scenario sensitivity; validation	BI-01–BI-08, ST-02, ST-03
-6 — Applications & Experience	Which small solutions reduce manual work and improve accountability?	Power Platform design and evidence, browser simulations, MERN application, APIs, usability and permissions tests	APP-01–APP-06, BA-03, BA-10, BA-08
-7 — Executive Decisions	Which recommendations provide the best expected value and what is the evidence?	Alternatives, cost-benefit/ROI assumptions, PowerPoint narrative, executive scorecard, demonstration walkthrough	ST-01–ST-05, BA-09, BA-08
 
 
-Feedback loops: Any iteration may reopen earlier BRD, FDD, TDD, process map, data model or backlog item. Document changes in the decision log and maintain traceability rather than assuming the first design is final.
-4. GitHub issue and phase map (34 showcase issues)
-The issue ID prefixes match the proposed portfolio issue titles. Once issue numbers are known, replace text labels with direct links. An item can contribute to several iterations and phases.
-Competency	Issue IDs	Primary phase(s)
-Business Intelligence & Data Analytics	BI-01, BI-02, BI-03, BI-04, BI-05, BI-06, BI-07, BI-08	[08 — Business Intelligence](08-business-intelligence/README.md), [09 — Storytelling](09-executive-storytelling/README.md)
-Enterprise Applications & Full-Stack Development	APP-01, APP-02, APP-03, APP-04, APP-05, APP-06	[06 — Applications](06-applications/README.md), [04 — Design](04-solution-design/README.md)
-Data Engineering & Database Architecture	DE-01, DE-02, DE-03, DE-04, DE-05	[05 — Data Engineering](05-data-engineering/README.md), [07 — Testing](07-testing/README.md)
-Business Analysis & Solution Documentation	BA-01, BA-02, BA-03, BA-04, BA-05, BA-06, BA-07, BA-08, BA-09, BA-10	[01 — Profile](01-enterprise-profile/README.md), [02 — Discovery](02-business-discovery/README.md), [03 — Requirements](03-requirements-and-business-case/README.md), [04 — Design](04-solution-design/README.md), [07 — Testing](07-testing/README.md)
-Data Storytelling & Executive Communication	ST-01, ST-02, ST-03, ST-04, ST-05	[03 — Business Case](03-requirements-and-business-case/README.md), [09 — Storytelling](09-executive-storytelling/README.md)
+## 3. Outcome-Driven Iterations
+
+The following are candidate iterations, not a waterfall critical path. Priorities will be reviewed and adjusted after each iteration based on evidence, business value, technical dependencies, and feedback.
+
+### Iteration 0 — Enterprise Foundation
+
+**Business Question:** What services, roles, transactions, and constraints define NorMack?
+
+**Evidence & Deliverables**
+- Enterprise profile and operating model
+- 15-person organizational structure and responsibility matrix
+- Service catalog for logistics, storage, crating, and specialty pallets
+- Business scenario charter and operating assumptions
+- Source-of-truth and data governance rules
+- Synthetic data generator specification
+
+**GitHub Issues:** BA-09, BA-07, BA-01, BA-10
+
+---
+
+### Iteration 1 — Order-to-Delivery
+
+**Business Question:** Why are pickups and deliveries late, and which operational handoffs contribute?
+
+**Evidence & Deliverables**
+- Shipment lifecycle and event datasets
+- AS-IS pickup-to-delivery process map
+- Simulated stakeholder interviews
+- Operational KPI baseline
+- Root-cause hypotheses and supporting evidence
+- Initial dispatch performance dashboard
+
+**GitHub Issues:** BA-07, BA-01, BA-06, DE-03, BI-01, ST-01
+
+---
+
+### Iteration 2 — In-Transit Storage
+
+**Business Question:** Why is cargo difficult to locate, release, or reconcile?
+
+**Evidence & Deliverables**
+- Chain-of-custody and location datasets
+- Receiving, storage, and release workflows
+- Entity Relationship Diagram (ERD)
+- User stories and acceptance criteria
+- Functional design for cargo tracking
+- Browser-based storage tracking proof of concept
+
+**GitHub Issues:** APP-01, BA-04, BA-05, BA-02, DE-02, BA-08
+
+---
+
+### Iteration 3 — Crating & Specialty Pallets
+
+**Business Question:** How do quoting, material shortages, assembly, and scheduling affect shipment readiness and profitability?
+
+**Evidence & Deliverables**
+- Custom crate and specialty pallet specifications
+- Bill of Materials (BOM) and material inventory datasets
+- Procurement-to-assembly process maps
+- Product costing and margin models
+- Functional and technical designs
+- Supply chain and assembly management prototype
+
+**GitHub Issues:** APP-02, APP-03, BA-02, BA-03, DE-05, BI-02
+
+---
+
+### Iteration 4 — Trusted Enterprise Data
+
+**Business Question:** Can operations and finance agree on consistent transactions, measures, and reporting outcomes?
+
+**Evidence & Deliverables**
+- Enterprise data dictionary
+- Raw and curated synthetic datasets
+- SQL database implementation
+- Optional Microsoft Fabric data pipelines
+- Data quality and reconciliation rules
+- Dimensional models and semantic layer
+- Data lineage documentation
+
+**GitHub Issues:** DE-01, DE-02, DE-03, DE-04, DE-05, BI-06, BI-08
+
+---
+
+### Iteration 5 — Analytics & Forecasting
+
+**Business Question:** What drives service performance, costs, operational capacity, and customer demand?
+
+**Evidence & Deliverables**
+- Interactive operational KPI dashboards
+- Financial performance and profitability reports
+- Advanced DAX measures
+- Power Query M transformations
+- Statistical analysis using R
+- Predictive forecasting models
+- Scenario analysis and sensitivity testing
+- Validation of analytical results
+
+**GitHub Issues:** BI-01 through BI-08, ST-02, ST-03
+
+---
+
+### Iteration 6 — Applications & User Experience
+
+**Business Question:** Which targeted technology solutions can reduce manual work, improve accountability, and strengthen operational control?
+
+**Evidence & Deliverables**
+- Power Platform application designs
+- Browser-accessible application simulations
+- MERN full-stack application
+- REST API and integration specifications
+- User interface and usability demonstrations
+- Role-based access and permissions testing
+- Functional and technical validation
+
+**GitHub Issues:** APP-01 through APP-06, BA-03, BA-10, BA-08
+
+---
+
+### Iteration 7 — Executive Decision Support
+
+**Business Question:** Which recommendations offer the greatest expected operational and financial value?
+
+**Evidence & Deliverables**
+- Evaluation of alternative solutions
+- Cost-benefit analysis and ROI assumptions
+- Executive KPI scorecard
+- Scenario comparison and business recommendations
+- Interactive PowerPoint presentation
+- Portfolio demonstration walkthrough
+- Final assessment of simulated business outcomes
+
+**GitHub Issues:** ST-01 through ST-05, BA-09, BA-08
+
+---
+
+### Continuous Feedback & Improvement
+
+Every iteration includes opportunities to revisit and improve previous work.
+
+New findings may require revisions to:
+
+- Business Requirements Documents (BRD)
+- Functional Design Documents (FDD)
+- Technical Design Documents (TDD)
+- Business process maps
+- UML and ERD models
+- Synthetic data structures
+- Application designs
+- Test cases and acceptance criteria
+- Priorities and backlog items
+
+Changes will be documented through decision logs, version control, and requirements traceability.
+
+---
+
+## 4. GitHub Issue & Phase Map
+
+The portfolio contains 34 showcase issues organized into five professional competencies.
+
+Issue identifiers provide traceability across iterations, deliverables, and case-study phases. An issue may contribute to multiple iterations.
+
+### Business Intelligence & Data Analytics
+
+**Issues:** BI-01 through BI-08
+
+**Primary Phases**
+- [08 — Business Intelligence](08-business-intelligence/README.md)
+- [09 — Executive Storytelling](09-executive-storytelling/README.md)
+
+### Enterprise Applications & Full-Stack Development
+
+**Issues:** APP-01 through APP-06
+
+**Primary Phases**
+- [04 — Solution Design](04-solution-design/README.md)
+- [06 — Applications](06-applications/README.md)
+
+### Data Engineering & Database Architecture
+
+**Issues:** DE-01 through DE-05
+
+**Primary Phases**
+- [05 — Data Engineering](05-data-engineering/README.md)
+- [07 — Testing & Validation](07-testing/README.md)
+
+### Business Analysis & Solution Documentation
+
+**Issues:** BA-01 through BA-10
+
+**Primary Phases**
+- [01 — Enterprise Profile](01-enterprise-profile/README.md)
+- [02 — Business Discovery](02-business-discovery/README.md)
+- [03 — Requirements & Business Case](03-requirements-and-business-case/README.md)
+- [04 — Solution Design](04-solution-design/README.md)
+- [07 — Testing & Validation](07-testing/README.md)
+
+### Data Storytelling & Executive Communication
+
+**Issues:** ST-01 through ST-05
+
+**Primary Phases**
+- [03 — Requirements & Business Case](03-requirements-and-business-case/README.md)
+- [09 — Executive Storytelling](09-executive-storytelling/README.md)
+
+### Prioritization Framework
+
+Each candidate work item will be scored from 1 to 5 against the following criteria:
+
+| Criterion | Weight | Evaluation |
+|:---|:---:|:---|
+| Business Impact | 2 | Expected operational or financial value |
+| Evidence Readiness | 1 | Availability of supporting data and requirements |
+| Reusability | 1 | Value to other portfolio deliverables |
+| Demonstration Value | 1 | Ability to showcase relevant professional skills |
+| Effort & Risk | -1 | Complexity, resource requirements, and uncertainty |
+
+**Priority Score**
+
+Priority = (2 × Business Impact) + Evidence Readiness + Reusability + Demonstration Value − Effort & Risk
+
+The scoring model supports prioritization but does not replace professional judgment. Safety, confidentiality, compliance, and critical dependencies take precedence.
+
+---
+
+## 5. Cross-Functional Data Backbone
+
+NorMack will use a consistent, interconnected synthetic data architecture supporting all operational divisions.
+
+Datasets will be generated incrementally rather than attempting to build the entire enterprise data model in advance.
+
+### Data Generation Principles
+
+- Use deterministic synthetic data generation with documented random seeds.
+- Maintain consistent primary and foreign keys.
+- Preserve referential integrity across business domains.
+- Maintain schema and generator version history.
+- Introduce controlled defects for data quality investigations.
+- Maintain separate ground-truth datasets and defect manifests.
+- Ensure operational events can be traced across business functions.
+
+### 5.1 Customers & Contracts
+
+**Core Data:** CustomerID, ContractID, ServiceLevel, RateCardID
+
+**Business Purpose:** Manage contracted customers, agreed service levels, pricing, and commercial relationships.
+
+**Cross-Functional Dependencies:** Shipment orders, invoicing, customer profitability, and contract performance.
+
+### 5.2 Shipments & Events
+
+**Core Data:** ShipmentID, StopID, PickupWindow, DeliveryWindow, ScanEventID
+
+**Business Purpose:** Track cargo from pickup through temporary storage, transfer, and final delivery.
+
+**Cross-Functional Dependencies:** Dispatch, vehicle assignment, storage, proof of delivery, customer billing, and performance reporting.
+
+### 5.3 Capacity & Personnel
+
+**Core Data:** EmployeeID, RoleID, VehicleID, ShiftID
+
+**Business Purpose:** Track staffing, assignments, operational capacity, and labor availability.
+
+**Cross-Functional Dependencies:** Dispatch scheduling, vehicle utilization, workforce productivity, and labor costs.
+
+### 5.4 Temporary Storage
+
+**Core Data:** StorageLotID, LocationID, CustodyEventID, ReleaseAuthorizationID
+
+**Business Purpose:** Support cargo receiving, location tracking, custody accountability, and release controls.
+
+**Cross-Functional Dependencies:** Shipment visibility, storage charges, warehouse capacity, and customer service.
+
+### 5.5 Crating & Specialty Pallets
+
+**Core Data:** ProductID, DesignID, BOMID, WorkOrderID
+
+**Business Purpose:** Manage custom product specifications, materials, fabrication, and assembly.
+
+**Cross-Functional Dependencies:** Inventory, procurement, production scheduling, costing, and shipment readiness.
+
+### 5.6 Purchasing & Inventory
+
+**Core Data:** VendorID, PurchaseOrderID, ItemID, InventoryTxnID
+
+**Business Purpose:** Manage supplier purchases, receiving, inventory movements, and material availability.
+
+**Cross-Functional Dependencies:** Assembly, warehouse operations, stock reconciliation, and financial reporting.
+
+### 5.7 Finance & Accounting
+
+**Core Data:** InvoiceID, CostEntryID, GLAccountID, BudgetScenarioID
+
+**Business Purpose:** Track revenue, expenses, operating costs, profitability, budgets, and forecasts.
+
+**Cross-Functional Dependencies:** Service pricing, shipment costs, labor, materials, and executive reporting.
+
+### 5.8 Quality & Exceptions
+
+**Core Data:** ExceptionID, DamageClaimID, ValidationRuleID
+
+**Business Purpose:** Investigate operational incidents, shipment exceptions, damage claims, and data quality problems.
+
+**Cross-Functional Dependencies:** Root-cause analysis, quality management, claims processing, and testing.
+
+### Enterprise Data Rule
+
+Operational events will have unique, immutable identifiers and recorded event timestamps.
+
+Calculated statuses and KPIs will derive from documented business rules.
+
+Raw source events will remain separate from curated reporting tables and snapshots, allowing realistic reconciliation and data quality exercises without compromising the underlying ground truth.
+
+---
+
+## 6. Requirements & Deliverable Traceability
+
+Every significant business problem, requirement, design decision, implementation, and test should be traceable.
+
+| Artifact | Identifier Example | Purpose |
+|:---|:---|:---|
+| Business Problem | PRB-001 | Identify operational symptoms and business impact |
+| Business Requirement | REQ-001 | Define required business capabilities |
+| User Story | US-001 | Describe user needs and expected behavior |
+| Business Process | PROC-001 | Document current and future workflows |
+| Data Quality Rule | DQ-001 | Define data validation and integrity requirements |
+| Architecture Decision | ADR-001 | Record technical choices and alternatives |
+| Test Case | TC-001 | Validate functionality and requirements |
+| Key Performance Indicator | KPI-001 | Define measurable business performance |
+
+### Example Traceability Chain
+
+Business Problem → Evidence → Requirement → User Story → Design → Implementation → Test → KPI → Executive Recommendation
+
+This convention allows portfolio reviewers to follow how a reported issue becomes a validated technical deliverable.
+
+Relative links will connect documentation stored in the phase folders. Corresponding GitHub Issues will be linked as work items are completed.
+
+---
+
+## 7. Risks, Controls & Assumptions
+
+### 7.1 Synthetic Data Misrepresented as Actual Results
+
+**Risk:** Simulated business outcomes could be mistaken for results achieved by an actual customer.
+
+**Control:** Clearly label synthetic datasets, fictional scenarios, modeled outcomes, and simulated improvements.
+
+### 7.2 Third-Party Brand Associations
+
+**Risk:** References to known freight carriers could imply actual contracts, affiliations, or endorsements.
+
+**Control:** Use recognizable company names only for industry context. Do not claim actual customer relationships or endorsements.
+
+### 7.3 Inconsistent Business Rules
+
+**Risk:** Different reports or applications may calculate the same operational KPI differently.
+
+**Control:** Maintain a shared data dictionary, standardized business rules, version-controlled metrics, and consistent synthetic records.
+
+### 7.4 Microsoft Platform Licensing Constraints
+
+**Risk:** Some Microsoft applications may require subscriptions or authenticated environments that public portfolio visitors cannot access.
+
+**Control:** Provide source code, technical documentation, architecture diagrams, recorded demonstrations, and browser-based simulations where practical.
+
+### 7.5 Security & Confidentiality
+
+**Risk:** Credentials, private configuration files, or confidential information could be unintentionally committed to GitHub.
+
+**Control:** Use synthetic data, environment-variable templates, appropriate .gitignore rules, and secret scanning before publication.
+
+### 7.6 Uncontrolled Scope Expansion
+
+**Risk:** Additional features and requirements may significantly increase development effort.
+
+**Control:** Build small vertical slices, maintain work-in-progress limits, evaluate dependencies, and reprioritize after each iteration.
+
+### 7.7 Broken Navigation & Missing Deliverables
+
+**Risk:** Portfolio navigation links may reference incomplete or missing files.
+
+**Control:** Maintain README files in each phase directory, use relative links, and verify navigation before publication.
+
+---
+
+**Project Governance Principle:** NorMack's roadmap is a living document. New evidence, testing results, and stakeholder feedback may change priorities, requirements, designs, and delivery sequences.
+
+The objective is not to follow a fixed plan regardless of findings, but to demonstrate disciplined, evidence-based continuous improvement.
 
 
-Prioritization rubric
-Score each candidate 1–5 on business impact, evidence readiness, reusability, and employer demonstration value; score effort/risk 1–5 (5 is hardest). Suggested relative priority score: 2 × impact + evidence + reusability + demo value − effort/risk. Use scoring to support—not replace—judgment. Treat regulatory, safety, confidentiality and key data-dependency constraints as overriding gates.
-5. Cross-functional data backbone
-Build datasets incrementally, not all at once. Maintain a single deterministic synthetic-data generator with seed, schema version, referential-integrity rules, controlled defects, and a separate ground truth / defect manifest.
-Domain	Core records and keys	Cross-functional connection
-Clients & contracts	CustomerID, ContractID, service level, rate card	Orders, billing and margin
-Shipments & events	ShipmentID, StopID, pickup/delivery windows, ScanEventID	Dispatch, storage, proof of delivery
-Capacity & personnel	EmployeeID, RoleID, VehicleID, ShiftID	Driver assignment, scheduling, labor cost
-Temporary storage	StorageLotID, LocationID, CustodyEventID, release authorization	Shipment visibility and storage billing
-Crating & pallets	ProductID, DesignID, BOMID, WorkOrderID	Material inventory, build scheduling, shipment readiness
-Purchasing & inventory	VendorID, PurchaseOrderID, ItemID, InventoryTxnID	Procurement, assembly and stock accuracy
-Finance	InvoiceID, CostEntryID, GLAccountID, BudgetScenarioID	Revenue, expense, profitability, forecasting
-Quality & exceptions	ExceptionID, DamageClaimID, ValidationRuleID	Root cause, incident management and tests
-
-
-Data rule: Operational events have immutable IDs and event times; derived status and KPIs are calculated from documented business rules. Separate raw events from reporting snapshots to permit discrepancies and reconciliation exercises without contradictory ground truth.
-6. Traceability convention
-Use consistent cross-document identifiers:
-Record	Example	Links to
-Business problem	PRB-001 Late deliveries	Evidence, impact, hypothesis
-Requirement	REQ-001 Track custody transfers	Business objective, stakeholder
-User story	US-001 Warehouse receiver	Requirement, acceptance tests
-Process	PROC-001 Receive cargo	AS-IS and TO-BE diagrams
-Data rule	DQ-001 Unique ShipmentID	Schema, validation test
-Design decision	ADR-001 Event-based tracking	Alternatives, architecture
-Test	TC-001 Duplicate scans	Story, expected result
-KPI	KPI-001 On-time delivery	Formula, source events, owner
-
-
-Prefer relative links to artifacts stored in phase folders. Add GitHub Issue links as individual work items are completed.
-7. Risks, controls, and assumptions
-Risk / concern	Control
-Synthetic results mistaken for actual customer results	Visible fictional-data label on each artifact; clear modeled vs measured results
-Vendor/service name implies endorsement	Do not claim real contracts or affiliations
-Business rules conflict across reports	Shared data dictionary, seeded generator, versioned metric definitions
-Paid Microsoft products unavailable for public viewers	Publish code, docs and browser-based simulations; label native product evidence honestly
-Public secrets or private information	No real credentials; use .env.example; secret checks before push
-Project scope grows beyond capacity	Small vertical slices, WIP limits, review and reprioritization
-Phase navigation links break	Automated link check and a README in each phase folder
-
-
-8. Portfolio publication plan
+# 8. Portfolio Publication Plan
 - Start page: [NorMack Scenario Introduction](README.md) explains the fictional company, problem and the route through the case study.
 - Roadmap: This file shows planned increments, quality gates, and decisions.
 - Nine phase landing pages: Navigate by lifecycle and competency; link to actual outputs only as those outputs exist.
 - Competency entry points: Business Intelligence, Data Engineering, Enterprise Applications, Solution Documentation, and Executive Storytelling.
-- Project tracking: GitHub Project #17 holds issue status, priority, competency, technology and dependencies. Keep planning tasks distinct from completed showcase evidence.
-9. First iteration: Foundation 0 — actionable plan
+- Project tracking: GitHub Project #17 holds issue status, priority, competency, technology and dependencies. Keep planning tasks distinct from completed showcase evidence.  
+# 9. First iteration: Foundation 0 — Actionable Plan
 Outcome: A coherent, believable small-business operating model and enough synthetic-data specification to investigate the first cross-functional issue.
 - [ ] Confirm service catalog: ground and air cargo pickup/delivery, LTL, temporary transit storage, hybrid crating, specialty pallets.
 - [ ] Draft 15-position organization and RACI with realistic combined duties.
