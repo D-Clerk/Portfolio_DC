@@ -1,7 +1,7 @@
 <p align="right">
-  <a href="README.md">← View Digital Portfolio</a> ·
-  <a href="01-enterprise-profile/README.md">View Enterprise Profile</a> ·
-  <a href="02-business-discovery/README.md"> View Discovery</a>
+  <a href="case-studies/normack-shipping/README.md">← View Digital Portfolio</a> ·
+  <a href="case-studies/normack-shipping/01-enterprise-profile/README.md">View Enterprise Profile</a> ·
+  <a href="case-studies/normack-shipping/02-business-discovery/README.md"> View Discovery</a>
 </p>
 ## David Clerk
     
