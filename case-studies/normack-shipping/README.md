@@ -1,6 +1,6 @@
 <p align="right">
   <a href="README.md">← View Professional Profile</a> ·
-  <a href="case-studies/normack-shipping/01-enterprise-profile/PROJECT_ROADMAP.md">View Project Roadmap</a> ·
+  <a href="01-enterprise-profile/PROJECT_ROADMAP.md">View Project Roadmap</a> ·
   <a href="case-studies/normack-shipping/02-business-discovery/README.md"> View Discovery</a>
 </p>
 
